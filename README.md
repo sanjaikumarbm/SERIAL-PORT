@@ -10,8 +10,8 @@ To write and execute an Embedded C Program for Serial Transfer of Single Byte / 
 ## PROGRAM
 
 ### (i) Serial Port Transfer a Single Character
-
 ```
+
 ORG 00H 
 MOV TMOD, #20H 
 MOV TH1, #0FDH 
@@ -41,10 +41,10 @@ T1=0;
 }
 }
 
-
-
-
 ```
+
+
+
 ### (ii) Serial Port to Transfer a Message
 
 ```
